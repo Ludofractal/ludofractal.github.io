@@ -26,7 +26,7 @@ html, body {
 }
 
 .main-logo {
-    width: min(110%, 1000px);
+    width: min(125%, 896px);
 }
 
 .link-button {
