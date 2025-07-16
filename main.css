@@ -5,6 +5,8 @@ html, body {
     overflow: hidden;
     font-weight: 300;
     font-family: Open Sans, Helvetica Neue, Arial, sans-serif;
+    user-select: none;
+    caret-color: transparent;
 }
 
 .main-container {
@@ -20,7 +22,11 @@ html, body {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    gap: 10px
+    gap: 10px;
+}
+
+.main-logo {
+    width: max(500px, 35%);
 }
 
 .link-button {
@@ -34,8 +40,6 @@ html, body {
     border-radius: 8px;
     padding: 12px 24px 12px 24px;
     width: 250px;
-    user-select: none;
-    caret-color: transparent;
     color: white;
 }
 
